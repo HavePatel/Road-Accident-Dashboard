@@ -1,91 +1,99 @@
 # Road Accident Dashboard (2021–2022)
-- Executive Summary
+## Executive Summary
 
 Road accidents remain a major public safety challenge, affecting millions each year. This project focuses on analysing accident data for the years 2021 and 2022, with the goal of helping decision-makers understand casualties by severity, vehicle type, road type, surface condition, and time of occurrence.
 The solution includes a fully interactive Road Accident Dashboard built using Excel, enabling users to explore KPIs, trends, and risk patterns.
 Key insights include identifying high-casualty vehicle types, the most dangerous road categories, and month-wise patterns between the current year and previous year.
 Future enhancements can include predictive modelling, geographic mapping, and integration with real-time data sources to improve public safety strategies.
 
-Business Problem
+## Business Problem
 
 The client wanted a comprehensive accident analysis dashboard for 2021–2022 to understand casualty trends, identify high-risk conditions, and support policy decisions for road safety improvement.
 
-Methodology
+## Methodology
 
 The workflow followed a structured analytics process:
 
-Data Understanding & Metadata Review
-– File type: .xlsx
-– Number of rows: 3.07 million
-– Number of fields: 21
+### 1. Data Understanding & Metadata Review
+- File type: .xlsx
 
-Data Cleaning & Preparation
-– Removed blanks and inconsistencies
-– Standardised date and categorical fields
-– Validated accident severity, vehicle type, and road categories
+- Number of rows: 3.07 million
 
-Data Modelling in Excel
-– Created structured tables
-– Used pivot tables for aggregation
-– Built slicers for Year, Accident Type, Location, Vehicle Type
+- Number of fields: 21
 
-Dashboard Development
-– Designed KPI cards
-– Built charts for trends, distribution, and comparisons
-– Applied interactive filters for multi-level insights
+### 2. Data Cleaning & Preparation
+- Removed blanks and inconsistencies
 
-Skills Demonstrated
+- Standardised date and categorical fields
 
-Data Cleaning & Pre-processing
+- Validated accident severity, vehicle type, and road categories
 
-Excel Pivot Tables & Pivot Charts
+### 3. Data Modelling in Excel
+- Created structured tables
+  
+- Used pivot tables for aggregation
+  
+- Built slicers for Year, Accident Type, Location, Vehicle Type
 
-KPI Design
+### 4. Dashboard Development
+- Designed KPI cards
+  
+- Built charts for trends, distribution, and comparisons
 
-Dashboard Layout & UI Structure
+- Applied interactive filters for multi-level insights
 
-Trend Analysis
+## Skills Demonstrated
 
-Comparative Year-over-Year Analysis
+- Data Cleaning & Pre-processing
 
-Insight Interpretation for Business Decisions
+- Excel Pivot Tables & Pivot Charts
 
-Results & Business Recommendations
-Key Results
+- KPI Design
 
-Primary KPIs showed total casualties broken down by fatal, serious, and slight categories.
+- Dashboard Layout & UI Structure
 
-Maximum casualties were observed for specific vehicle types and road types, enabling focused safety actions.
+- Trend Analysis
 
-Monthly trend charts revealed how casualty numbers changed between current and previous year.
+- Comparative Year-over-Year Analysis
 
-Road surface analysis highlighted accident-prone conditions (e.g., dry, wet, icy).
+- Insight Interpretation for Business Decisions
 
-Day vs Night and Area/Location comparisons helped identify high-risk periods and zones.
+## Results & Business Recommendations
+### Key Results
 
-Business Recommendations
+- Primary KPIs showed total casualties broken down by fatal, serious, and slight categories.
 
-Strengthen safety interventions on road types with the highest casualty density.
+- Maximum casualties were observed for specific vehicle types and road types, enabling focused safety actions.
 
-Enhance driver awareness programs for vehicle categories with high accident rates.
+- Monthly trend charts revealed how casualty numbers changed between current and previous year.
 
-Improve lighting and surveillance in high-casualty night-time zones.
+- Road surface analysis highlighted accident-prone conditions (e.g., dry, wet, icy).
 
-Use monthly trend patterns to plan seasonal safety campaigns.
+- Day vs Night and Area/Location comparisons helped identify high-risk periods and zones.
 
-Share findings with public safety teams to prioritise emergency response improvements.
+### Business Recommendations
 
-Next Steps
+- Strengthen safety interventions on road types with the highest casualty density.
 
-Integrate geographic maps for more granular accident location analysis.
+- Enhance driver awareness programs for vehicle categories with high accident rates.
 
-Build a predictive model to forecast future casualty trends.
+- Improve lighting and surveillance in high-casualty night-time zones.
 
-Automate data refresh using Power BI or Python pipelines.
+- Use monthly trend patterns to plan seasonal safety campaigns.
 
-Expand dashboard to include more years for deeper trend comparison.
+- Share findings with public safety teams to prioritise emergency response improvements.
 
-Stakeholders
+## Next Steps
+
+- Integrate geographic maps for more granular accident location analysis.
+
+- Build a predictive model to forecast future casualty trends.
+
+- Automate data refresh using Power BI or Python pipelines.
+
+- Expand dashboard to include more years for deeper trend comparison.
+
+## Stakeholders
 
 - Ministry of Transport
 
